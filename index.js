@@ -7,7 +7,7 @@ function findMatching(drivers, str){
 
 function fuzzyMatch(drivers, str){
   return drivers.filter(name => 
-    return name.startsWith(str)
+     name.startsWith(str)
   )
 }
 
