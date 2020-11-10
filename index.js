@@ -11,14 +11,8 @@ function fuzzyMatch(drivers, str){
 }
 
 function matchName(drivers, str) {
-  return drivers.filter(obj => {
-    return obj.name === str 
-  })
+  return drivers.filter(obj => 
+     obj.name === str 
+  )
 }
-=======
-      return name.charAt(0).toUpperCase() === str.charAt(0).toUpperCase(){
-        
-      } 
-  })
-}
->>>>>>> 82b77e55816622b0521d83ddd1b236c38bab88cf
+
